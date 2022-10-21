@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<HTMl lang="es">
+  <head>
+    <title>App de curso</title>
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <h2 >Gatitos</h2>
+
+
+      <main>
+        <h3>Imagenes de gatos</h3>
+        <!--Agregar enlace de imagenes-->
+        
+        <p>El gato doméstico12 (Felis silvestris catus), llamado más comúnmente gato, y de forma coloquial minino,3 michino,4 michi,5 micho,6 mizo,7 miz,8 morroño9 o morrongo,10 y algunos nombres más, es un mamífero carnívoro de la familia Felidae. Es una subespecie domesticada por la convivencia con el ser humano.</p>
+
+        <p>clic para ver mas <a href="https://es.wikipedia.org/wiki/Felis_silvestris_catus" target="_blank" rel="noopener noreferrer"> lindos gatitos</a></p>
+
+
+        <a href="https://nupec.com/blog-nupec/5-razas-de-gatos-que-son-adorables/" target="_blank" rel="noopener noreferrer"><img src="gato.jpg" alt="imagen de gatito"></a>
+        
+        
+        
+        <h3>Lista de gatos</h3>
+        <div>
+       
+          <p>Cosas que los gatos <em>aman</em>:</p>
+          <ul>
+            <li>Menta gatuna</li>
+            <li>Apuntadores láser</li>
+            <li><s>lasagna</s></li>
+          </ul>
+          <img src="imagenes/menta.PNG" alt="mentaG">
+          
+        
+          <p>Cosas que los gatos <strong>odian</strong>:</p>
+          <ol>
+            <li>Tratamiento antipulgas</li>
+            <li>Truenos</li>
+            <li>Otros gatos</li>
+          </ol>
+        </div>
+        <img src="imagenes/gatos1.PNG" alt="gatos">
+
+        <form action="/enviar-respuesta">
+          <!-- Radios-->
+          <label for="interior">
+            <input id="interior"  type="radio" value="interior" name="interior-exterior" checked>Interior
+          </label><br>         
+          <label for="exterior">
+            <input id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior
+          </label><br>
+
+          <!--Casillas de verificaciòn-->
+          <label for="carinoso"><input type="checkbox" id="carinoso" value="cariñoso" name="personalidad" checked>Cariñoso</label><br>
+          <label for="perezoso"><input type="checkbox" id="perezoso" value="perezoso" name="personalidad">Perezoso</label><br>
+          <label for="energico"><input type="checkbox" id="energico" value="Energico" name="personalidad">Enèrgico</label><br>
+
+          <!-- texto y boton enviar-->
+          <br>
+          <input type="text" placeholder="URL de la pagina de tu gato" required>
+          <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+    <footer>
+      <small><p>Sin derechos de autor <a href="https://www.freecodecamp.org/espanol/" target="_blank"> freecodecamp.org</a></p></small>
+    </footer>
+
+  </body>
+</HTMl>
